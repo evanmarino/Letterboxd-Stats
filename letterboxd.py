@@ -1,6 +1,6 @@
 import pandas as pd
 #panda option to not condense output 
-pd.set_option("display.max_columns", None)
+    #pd.set_option("display.max_columns", None)
 
 #Reads the original csv file
 df = pd.read_csv("allWatched.csv")
@@ -39,4 +39,4 @@ df_merged = df_merged[["Movie Name", "Year", "Ratings", "Dugan Ratings", "Date",
     #df_merged.to_csv("allWatched_ver3.csv", index=False)
 
 #Checks if output is correct by displaying first 5 lines
-print(df_merged.head())
+    #print(df_merged.head())
